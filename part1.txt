@@ -1,11 +1,14 @@
 - Describe what is the primary problem you try to solve. 
 The primary problem that I tried to solve is how to initialize the CreditCard class after reading the file. First, I need to implement different kinds of files with different reading methods and writing methods. Second, figuring out how to initiate the CreditCard class with different input(wrong card number input validation). Finally, I also struggled in the JSON file reading about the card number has larger than 19 dight. I import the wrong jar in the beginning, so I was not able to implement the BigDecimal.
 
+
 - Describe what are the secondary problems you try to solve (if there are any). 
 The secondary problem that I solved was writing the test class for each of my classes. First, I watched a video about implementing a test in IntelliJ and wrote down my first test class. Secondly, I needed to added Exception catch in my original file, and caught it from its test class and made sure all correct. 
 
+
 - Describe what design pattern(s) you use how (use plain text and diagrams). 
 I used the creational design pattern which I factory method. The factory method allows the subclass to control the actual creation process. The CreditCard class has multiple families of products class(visa, american express, discover, masterCard). I want to provide a class library of products, and I want to reveal just their interfaces, not their implementations. Use if/else check the card number and initial different class base on its card number, and inside the CreditCard class, I can implement the validation method of the card number, cardholder name, and expiration date.
+
 
 - Describe the consequences of using this/these pattern(s).
 I created a CreditCard class first, then use the factory to do the credit card classification(card number validation). Put all the classification(four kinds of the credit card) in the factory, and the factory can create different classes(visa, American express, discover, masterCard) base on the card number. 
