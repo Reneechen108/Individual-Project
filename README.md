@@ -1,4 +1,7 @@
 # Individual-Project
+####QUESTION ANSWER(PART1):
+![](question.png)
 
-SAMPLE OUTPUT:
+
+####SAMPLE OUTPUT:
 ![](sample-output.png)
