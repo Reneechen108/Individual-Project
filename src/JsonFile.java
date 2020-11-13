@@ -33,18 +33,13 @@ public class JsonFile {
                 BigDecimal bd = creditCard.getBigDecimal("CardNumber");
                 BigInteger num = bd.toBigInteger();
                 String cardNumber;
-                System.out.println(num.toString().length());
-                if(num.toString().length() >= 19){
+                if(num.toString().length() >=    19){
                     cardNumber = "";
                 }else{
                     cardNumber = num.toString();
                 }
-                //String cardNumber = "123";
-//                String cardNumber = num.toString(8);
-//                int cardNum i1 = bi1.intValue();
                 String expirationDate = (String) creditCard.get("ExpirationDate");
                 String cardHolder = (String) creditCard.get("NameOfCardholder");
-//                System.out.println(cardNumber+" "+expirationDate+" "+cardHolder);
                 CreditCard x = cf.createCard(cardNumber.toString(), cardHolder, expirationDate);
                 if(x.getType() == "Credit Card"){
                     x.setCardNumber(cardNumber.toString());
