@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE root SYSTEM "roles.dtd">
+<root>
+    <row>
+        <CardNumber>4556828904412461</CardNumber>
+        <CardType>Visa Card</CardType>
+    </row>
+    <row>
+        <CardNumber>4556736585633281</CardNumber>
+        <CardType>Visa Card</CardType>
+    </row>
+    <row>
+        <CardNumber>4485159003374139</CardNumber>
+        <CardType>Visa Card</CardType>
+    </row>
+    <row>
+        <CardNumber>4024007141344092</CardNumber>
+        <CardType>Visa Card</CardType>
+    </row>
+    <row>
+        <CardNumber>5142181346315803</CardNumber>
+        <CardType>Master Card</CardType>
+    </row>
+    <row>
+        <CardNumber>5320104455333356</CardNumber>
+        <CardType>Master Card</CardType>
+    </row>
+    <row>
+        <CardNumber>5299094883676191</CardNumber>
+        <CardType>Master Card</CardType>
+    </row>
+    <row>
+        <CardNumber>5116866011088030</CardNumber>
+        <CardType>Master Card</CardType>
+    </row>
+    <row>
+        <CardNumber>5221982097024036</CardNumber>
+        <CardType>Master Card</CardType>
+    </row>
+    <row>
+        <CardNumber>5572373659951402</CardNumber>
+        <CardType>Master Card</CardType>
+    </row>
+    <row>
+        <CardNumber>340963001469582</CardNumber>
+        <CardType>American Express</CardType>
+    </row>
+    <row>
+        <CardNumber>346918733690636</CardNumber>
+        <CardType>American Express</CardType>
+    </row>
+    <row>
+        <CardNumber>348424600931250</CardNumber>
+        <CardType>American Express</CardType>
+    </row>
+    <row>
+        <CardNumber>344921605237314</CardNumber>
+        <CardType>American Express</CardType>
+    </row>
+    <row>
+        <CardNumber>342203970468689</CardNumber>
+        <CardType>American Express</CardType>
+    </row>
+    <row>
+        <CardNumber>6011289819386826</CardNumber>
+        <CardType>Discover Card</CardType>
+    </row>
+    <row>
+        <CardNumber>6011079674290814</CardNumber>
+        <CardType>Discover Card</CardType>
+    </row>
+    <row>
+        <CardNumber>6011078544932302</CardNumber>
+        <CardType>Discover Card</CardType>
+    </row>
+    <row>
+        <CardNumber>6011142152748129</CardNumber>
+        <CardType>Discover Card</CardType>
+    </row>
+    <row>
+        <ErrorType>Invalid card number(larger than 19 or empty)</ErrorType>
+    </row>
+</root>

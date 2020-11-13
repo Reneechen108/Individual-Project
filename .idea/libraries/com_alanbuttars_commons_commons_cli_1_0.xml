@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.alanbuttars.commons:commons-cli:1.0" type="repository">
+    <properties maven-id="com.alanbuttars.commons:commons-cli:1.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alanbuttars/commons/commons-cli/1.0/commons-cli-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/alanbuttars/commons/commons-util/1.0/commons-util-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
